@@ -3,10 +3,11 @@ import map from "../../assets/Group.png";
 import "./WhereWeLand.css"
 import land1 from "../../assets/land1.jpg";
 import land2 from "../../assets/land2.png";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 const WhereWeLand = () => {
   return (
-    <div className="relative min-h-screen bg-[#165831] overflow-hidden">
+    <div className="relative min-h-screen bg-[#165831] overflow-hidden py-12">
       <div className="absolute top-1/2 left-1/2 w-[600px] h-[600px] -translate-x-1/2 -translate-y-1/2 bg-[#499668] rounded-full blur-[160px] opacity-60 z-0" />
       {/* {content} */}
       <div className="pt-18 px-14">
@@ -79,7 +80,12 @@ const WhereWeLand = () => {
 </div>
 
 {/* {button} */}
-
+ <div className="mt-6 flex justify-center">
+            <button className="relative inline-flex items-center justify-between bg-white text-green-900 font-semibold px-5 py-2 rounded shadow-lg transition-transform hover:scale-105 clipThree">
+              GET APPROVED ONLINE
+              <span className="ml-2 bg-green-900 text-white p-1 rounded clipSec h-full p-2"><MdOutlineKeyboardDoubleArrowRight></MdOutlineKeyboardDoubleArrowRight></span>
+            </button>
+          </div>
     </div>
   );
 };
