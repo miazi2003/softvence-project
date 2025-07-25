@@ -1,0 +1,10 @@
+.clip{
+    clip-path: polygon(0 7%, 100% 0, 100% 94%, 0% 100%);}
+
+
+    .clipSec {
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    }
+    .clipThree {
+clip-path: polygon(0 0, 100% 0%, 94% 100%, 0% 100%);
+    }
