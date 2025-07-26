@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+.font{
+font-family: "Inter", sans-serif;
+}
 .bgBack{
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }

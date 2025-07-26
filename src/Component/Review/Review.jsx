@@ -17,7 +17,7 @@ const Review = () => {
        </div>
 
        <div className="py-4">
-  <h1 className="text-[40px] font-bold text-[#165831] text-center">Ridge Street Client Reviews</h1>
+  <h1 className="text-[40px] font-bold text-[#165831] text-center uppercase">Ridge Street Client Reviews</h1>
 <div>
     <CardSlider></CardSlider>
 </div>
