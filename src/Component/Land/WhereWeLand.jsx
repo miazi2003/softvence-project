@@ -26,13 +26,13 @@ const WhereWeLand = () => {
       </div>
 
       {/* {map} */}
-      <div className="mt-24 w-full  flex items-center justify-center px-42">
+      <div className="mt-24 w-full  flex items-center justify-center px-4 lg:px-42">
         <img src={map} alt="" />
       </div>
 
       {/* {card} */}
 
-  <div className="flex gap-[120px] w-full items-center justify-center py-24">
+  <div className="grid lg:grid-cols-2 grid-cols-1 px-2 lg:px-72  gap-[120px] w-full items-center justify-center py-24">
   
   <div
     className="relative border py-28 px-8 flex flex-col gap-4 border-white rounded-tr-[50px] rounded-bl-[50px] text-white overflow-hidden"

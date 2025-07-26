@@ -1,5 +1,6 @@
 import React from "react";
 import CardSlider from "./SliderCard";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Review = () => {
   return (
@@ -19,6 +20,12 @@ const Review = () => {
     <CardSlider></CardSlider>
 </div>
        </div>
+        <div className="mt-6 flex justify-center ">
+                   <button className="relative inline-flex items-center justify-between bg-white text-green-900 font-semibold px-5 py-2 rounded shadow-lg transition-transform hover:scale-105 clipThree">
+                     GET APPROVED ONLINE
+                     <span className="ml-2 bg-green-900 text-white  rounded clipSec h-full p-2"><MdOutlineKeyboardDoubleArrowRight></MdOutlineKeyboardDoubleArrowRight></span>
+                   </button>
+                 </div>
     </div>
   );
 };

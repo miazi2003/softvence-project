@@ -150,7 +150,7 @@ const ReviewSlider = () => {
         {visibleReviews.map((review) => (
           <div
             key={review.id}
-            className="bg-white/70 p-6 rounded-[20px] shadow-2xl text-center  relative"
+            className="bg-white/80 p-6 rounded-[20px] shadow-3xl text-center  relative"
           >
             <img
               src={review.image}
