@@ -2,6 +2,7 @@ import active from "../../assets/hand.jpg"
 import findHome from "../../assets/findHome.png"
 import service from "../../assets/service.png"
 import { GoArrowUpRight } from "react-icons/go";
+import { Link } from "react-router";
 
 export default function WorkingSection() {
   return (
@@ -25,10 +26,11 @@ export default function WorkingSection() {
             <h3 className="text-xl mb-2 text-[#016630] font-bold">Active Deal</h3>
             <p className="text-gray-500  text-sm">I have an active deal and would like a Term Sheet</p>
           </div>
+        <Link to={"/homeFind"}>
           <button className=" mt-4 px-5 py-2 rounded-xl text-sm font-medium transition-all duration-200 flex items-center justify-center gap-2 border border-[#175730] text-gray-800">
             Find a home
             <GoArrowUpRight />
-          </button>
+          </button></Link>
         </div>
 
 
@@ -43,10 +45,11 @@ export default function WorkingSection() {
             <h3 className="text-xl mb-2 text-[#016630] font-bold">Pre-Approval</h3>
             <p className="text-gray-500 break-words w-3/4 text-sm">I'd like to get pre-approved so I can find my next deal.</p>
           </div>
+          <Link to={"/homeFind"}>
           <button className="mt-4 px-5 py-2 rounded-xl text-sm font-medium transition-all duration-200 flex items-center justify-center gap-2 bg-[#175730] text-white">
             Find a home
            <GoArrowUpRight />
-          </button>
+          </button></Link>
         </div>
 
 
@@ -68,10 +71,11 @@ export default function WorkingSection() {
             <h3 className="text-xl mb-2 text-[#016630] font-bold">Schedule A Call</h3>
             <p className="text-gray-500 break-words w-3/4 text-sm">I'd like to schedule a call.</p>
           </div>
+         <Link to={"/homeFind"}>
           <button className="mt-4 px-5 py-2 rounded-xl text-sm font-medium transition-all duration-200 flex items-center justify-center gap-2 border border-[#175730] text-gray-800">
             Find a home
            <GoArrowUpRight />
-          </button>
+          </button></Link>
         </div>
       </div>
     </section>

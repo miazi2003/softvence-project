@@ -23,7 +23,7 @@ const App = () => {
       <PastProjects></PastProjects>
       <WorkingSection></WorkingSection>
       <OtherResourcesSection></OtherResourcesSection>
-      <GetStartedSection></GetStartedSection>
+
       <Footer></Footer>
     </div>
   );

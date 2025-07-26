@@ -6,7 +6,7 @@ import res3 from "../../assets/res3.jpg"
 
 export default function OtherResourcesSection() {
   return (
-    <section className="px-4 md:px-12 lg:px-20 py-16 bg-white">
+    <section className="px-4 md:px-12 lg:px-20 py-16 bg-white" id="resources">
       {/* Header */}
       <div className="flex items-center justify-between mb-8 flex-wrap gap-4">
         <h2 className="text-2xl md:text-3xl font-extrabold text-green-800 uppercase">
